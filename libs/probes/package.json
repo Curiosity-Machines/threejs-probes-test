@@ -16,7 +16,9 @@
     "build:production": "tsc",
     "clean": "rm -fr build"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+    "three": "^0.160"
+  },
   "devDependencies": {
     "@libs/config": "0.0.1",
     "@types/three": "^0.160",
@@ -24,7 +26,6 @@
     "wrap-ansi": "^9.0.0"
   },
   "dependencies": {
-    "@libs/utils": "^0.0.1",
-    "three": "^0.160"
+    "@libs/utils": "^0.0.1"
   }
 }
